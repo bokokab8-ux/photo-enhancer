@@ -1,3 +1,4 @@
+
 name: Build APK
 on:
   workflow_dispatch:
@@ -13,12 +14,9 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: gradle
           
       - name: Build Debug APK
-        run: |
-          chmod +x gradlew || true
-          ./gradlew assembleDebug
+        run: gradle assembleDebug
         working-directory: AIPhotoEnhancer/AIPhotoEnhancer
         
       - name: Upload APK Artifact
