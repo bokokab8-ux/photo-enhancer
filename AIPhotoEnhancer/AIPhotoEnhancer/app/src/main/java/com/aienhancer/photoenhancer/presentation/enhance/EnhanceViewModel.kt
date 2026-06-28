@@ -75,7 +75,7 @@ class EnhanceViewModel @Inject constructor(
                         message = throwable.message ?: "An unexpected error occurred."
                     )
                 }
-                .collect()
+                .collect {}
         }
     }
 
