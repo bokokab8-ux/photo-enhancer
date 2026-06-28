@@ -110,7 +110,7 @@ class ImageEnhancementRepositoryImpl @Inject constructor(
             )
             send(failedTask)
             taskHistory.update { current -> listOf(failedTask) + current }
-        }
+       awaitClose { } }
     }.flowOn(Dispatchers.Default)
 
     /**
