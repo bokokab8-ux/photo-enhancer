@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Photo Enhancer</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">AI Photo Enhancer</string>
+    <string name="home_subtitle">Pick a photo and let AI do the magic</string>
+    <string name="pick_from_gallery">Gallery</string>
+    <string name="capture_photo">Camera</string>
+    <string name="features_title">Enhancement Tools</string>
+    <string name="feature_upscale_4x">Upscale 4x</string>
+    <string name="feature_upscale_8x">Upscale 8x</string>
+    <string name="feature_denoise">Denoise</string>
+    <string name="feature_sharpness">Sharpness</string>
+    <string name="locked_feature_badge">PRO</string>
+
+    <!-- Enhance Screen -->
+    <string name="enhance_title">Enhance</string>
+    <string name="before_label">BEFORE</string>
+    <string name="after_label">AFTER</string>
+    <string name="export_button">Export</string>
+    <string name="processing_label">Processing…</string>
+    <string name="idle_label">Ready to enhance</string>
+    <string name="error_label">Something went wrong</string>
+    <string name="retry_button">Retry</string>
+    <string name="start_enhancing">Start Enhancing</string>
+    <string name="export_success">Image saved to gallery</string>
+
+    <!-- Rewarded Ad -->
+    <string name="unlock_dialog_title">Unlock Premium Feature</string>
+    <string name="unlock_dialog_message">Watch a short ad to unlock this feature for this session.</string>
+    <string name="watch_ad_button">Watch Ad</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="ad_loading">Loading ad…</string>
+    <string name="ad_not_ready">Ad is not ready yet. Please try again shortly.</string>
+    <string name="reward_granted">Feature unlocked!</string>
+
+    <!-- Permissions -->
+    <string name="permission_camera_required">Camera permission is required to capture photos.</string>
+    <string name="permission_storage_required">Storage permission is required to pick photos.</string>
+    <string name="grant_permission">Grant Permission</string>
+</resources>
